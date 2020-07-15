@@ -1,0 +1,106 @@
+var map = {
+	"./dashboard": "./resources/admin/views/dashboard/index.vue",
+	"./dashboard/": "./resources/admin/views/dashboard/index.vue",
+	"./dashboard/admin": "./resources/admin/views/dashboard/admin/index.vue",
+	"./dashboard/admin/": "./resources/admin/views/dashboard/admin/index.vue",
+	"./dashboard/admin/components/ChinaMap": "./resources/admin/views/dashboard/admin/components/ChinaMap.vue",
+	"./dashboard/admin/components/ChinaMap.vue": "./resources/admin/views/dashboard/admin/components/ChinaMap.vue",
+	"./dashboard/admin/components/LineChart": "./resources/admin/views/dashboard/admin/components/LineChart.vue",
+	"./dashboard/admin/components/LineChart.vue": "./resources/admin/views/dashboard/admin/components/LineChart.vue",
+	"./dashboard/admin/components/PanelGroup": "./resources/admin/views/dashboard/admin/components/PanelGroup.vue",
+	"./dashboard/admin/components/PanelGroup.vue": "./resources/admin/views/dashboard/admin/components/PanelGroup.vue",
+	"./dashboard/admin/index": "./resources/admin/views/dashboard/admin/index.vue",
+	"./dashboard/admin/index.vue": "./resources/admin/views/dashboard/admin/index.vue",
+	"./dashboard/index": "./resources/admin/views/dashboard/index.vue",
+	"./dashboard/index.vue": "./resources/admin/views/dashboard/index.vue",
+	"./errorPage/401": "./resources/admin/views/errorPage/401.vue",
+	"./errorPage/401.vue": "./resources/admin/views/errorPage/401.vue",
+	"./errorPage/404": "./resources/admin/views/errorPage/404.vue",
+	"./errorPage/404.vue": "./resources/admin/views/errorPage/404.vue",
+	"./errorPage/410_bak": "./resources/admin/views/errorPage/410_bak.vue",
+	"./errorPage/410_bak.vue": "./resources/admin/views/errorPage/410_bak.vue",
+	"./layout/Layout": "./resources/admin/views/layout/Layout.vue",
+	"./layout/Layout.vue": "./resources/admin/views/layout/Layout.vue",
+	"./layout/components": "./resources/admin/views/layout/components/index.js",
+	"./layout/components/": "./resources/admin/views/layout/components/index.js",
+	"./layout/components/AppMain": "./resources/admin/views/layout/components/AppMain.vue",
+	"./layout/components/AppMain.vue": "./resources/admin/views/layout/components/AppMain.vue",
+	"./layout/components/AppRight": "./resources/admin/views/layout/components/AppRight.vue",
+	"./layout/components/AppRight.vue": "./resources/admin/views/layout/components/AppRight.vue",
+	"./layout/components/Navbar": "./resources/admin/views/layout/components/Navbar.vue",
+	"./layout/components/Navbar.vue": "./resources/admin/views/layout/components/Navbar.vue",
+	"./layout/components/Sidebar": "./resources/admin/views/layout/components/Sidebar/index.vue",
+	"./layout/components/Sidebar/": "./resources/admin/views/layout/components/Sidebar/index.vue",
+	"./layout/components/Sidebar/Item": "./resources/admin/views/layout/components/Sidebar/Item.vue",
+	"./layout/components/Sidebar/Item.vue": "./resources/admin/views/layout/components/Sidebar/Item.vue",
+	"./layout/components/Sidebar/SidebarItem": "./resources/admin/views/layout/components/Sidebar/SidebarItem.vue",
+	"./layout/components/Sidebar/SidebarItem.vue": "./resources/admin/views/layout/components/Sidebar/SidebarItem.vue",
+	"./layout/components/Sidebar/index": "./resources/admin/views/layout/components/Sidebar/index.vue",
+	"./layout/components/Sidebar/index.vue": "./resources/admin/views/layout/components/Sidebar/index.vue",
+	"./layout/components/TagsView": "./resources/admin/views/layout/components/TagsView.vue",
+	"./layout/components/TagsView.vue": "./resources/admin/views/layout/components/TagsView.vue",
+	"./layout/components/index": "./resources/admin/views/layout/components/index.js",
+	"./layout/components/index.js": "./resources/admin/views/layout/components/index.js",
+	"./layout/mixin/ResizeHandler": "./resources/admin/views/layout/mixin/ResizeHandler.js",
+	"./layout/mixin/ResizeHandler.js": "./resources/admin/views/layout/mixin/ResizeHandler.js",
+	"./log/log": "./resources/admin/views/log/log.vue",
+	"./log/log.vue": "./resources/admin/views/log/log.vue",
+	"./login": "./resources/admin/views/login/index.vue",
+	"./login/": "./resources/admin/views/login/index.vue",
+	"./login/authredirect": "./resources/admin/views/login/authredirect.vue",
+	"./login/authredirect.vue": "./resources/admin/views/login/authredirect.vue",
+	"./login/index": "./resources/admin/views/login/index.vue",
+	"./login/index.vue": "./resources/admin/views/login/index.vue",
+	"./manage/admin": "./resources/admin/views/manage/admin.vue",
+	"./manage/admin.vue": "./resources/admin/views/manage/admin.vue",
+	"./manage/admin/form": "./resources/admin/views/manage/admin/form.vue",
+	"./manage/admin/form.vue": "./resources/admin/views/manage/admin/form.vue",
+	"./manage/info": "./resources/admin/views/manage/info.vue",
+	"./manage/info.vue": "./resources/admin/views/manage/info.vue",
+	"./manage/roles": "./resources/admin/views/manage/roles.vue",
+	"./manage/roles.vue": "./resources/admin/views/manage/roles.vue",
+	"./manage/roles/form": "./resources/admin/views/manage/roles/form.vue",
+	"./manage/roles/form.vue": "./resources/admin/views/manage/roles/form.vue",
+	"./manage/roles/menu": "./resources/admin/views/manage/roles/menu.vue",
+	"./manage/roles/menu.vue": "./resources/admin/views/manage/roles/menu.vue",
+	"./manage/roles/user": "./resources/admin/views/manage/roles/user.vue",
+	"./manage/roles/user.vue": "./resources/admin/views/manage/roles/user.vue",
+	"./manage/rules": "./resources/admin/views/manage/rules.vue",
+	"./manage/rules.vue": "./resources/admin/views/manage/rules.vue",
+	"./manage/rules/form": "./resources/admin/views/manage/rules/form.vue",
+	"./manage/rules/form.vue": "./resources/admin/views/manage/rules/form.vue",
+	"./manage/rules/icon": "./resources/admin/views/manage/rules/icon.vue",
+	"./manage/rules/icon.vue": "./resources/admin/views/manage/rules/icon.vue",
+	"./manage/rules/requireIcons": "./resources/admin/views/manage/rules/requireIcons.js",
+	"./manage/rules/requireIcons.js": "./resources/admin/views/manage/rules/requireIcons.js",
+	"./redirect": "./resources/admin/views/redirect/index.vue",
+	"./redirect/": "./resources/admin/views/redirect/index.vue",
+	"./redirect/index": "./resources/admin/views/redirect/index.vue",
+	"./redirect/index.vue": "./resources/admin/views/redirect/index.vue",
+	"./svg-icons": "./resources/admin/views/svg-icons/index.vue",
+	"./svg-icons/": "./resources/admin/views/svg-icons/index.vue",
+	"./svg-icons/index": "./resources/admin/views/svg-icons/index.vue",
+	"./svg-icons/index.vue": "./resources/admin/views/svg-icons/index.vue",
+	"./svg-icons/requireIcons": "./resources/admin/views/svg-icons/requireIcons.js",
+	"./svg-icons/requireIcons.js": "./resources/admin/views/svg-icons/requireIcons.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./resources/admin/views sync recursive ^\\.\\/.*$";
