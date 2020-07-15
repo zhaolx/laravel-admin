@@ -15,9 +15,11 @@ Laravel Admin 是用 laravel + element admin前端框架前后端分离开发，
 ## 使用
 访问地址
 http://local.admin.com/admin 注：可根据实际修改
+
 默认管理员账号 admin/123456 
 
 npm run watch 可在开发时运行，实时兼控前端文件修改
+
 npm run prod 生产环境打包
 
 ## 注意
